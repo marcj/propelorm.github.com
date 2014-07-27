@@ -9,7 +9,7 @@ The initial step in every Propel project is the "build". During build time, a de
 
 The XML schema can also be used to generate SQL code to setup your database.
 Alternatively, you can generate the schema from an existing database (see the
-[Working with existing databases guide](../cookbook/working-with-existing-databases)
+[Working with existing databases guide](../documentation/cookbook/working-with-existing-databases)
 for more details).
 
 During build time, a developer also defines the connection settings for communicating with the database.
@@ -128,7 +128,7 @@ A table can have several `<foreign-key>` tags, describing foreign keys to foreig
 
 A foreign key represents a relationship. Just like a table or a column, a relationship has a `phpName`. By default, Propel uses the `phpName` of the foreign table as the `phpName` of the relation. The `refPhpName` defines the name of the relation as seen from the foreign table.
 
-There are many more attributes and elements available to describe a datamodel. Propel's documentation provides a complete [Schema of the schema syntax](../reference/schema), together with a [DTD](https://github.com/propelorm/Propel2/blob/master/resources/dtd/database.dtd) and a [XSD](https://github.com/propelorm/Propel2/blob/master/resources/xsd/database.xsd) schema for its validation.
+There are many more attributes and elements available to describe a datamodel. Propel's documentation provides a complete [Schema of the schema syntax](../documentation/reference/schema), together with a [DTD](https://github.com/propelorm/Propel2/blob/master/resources/dtd/database.dtd) and a [XSD](https://github.com/propelorm/Propel2/blob/master/resources/xsd/database.xsd) schema for its validation.
 
 ## Building The Model ##
 
@@ -148,7 +148,7 @@ propel.project = bookstore
 
 Use your own database vendor driver, chosen among pgsql, mysql, sqlite, mssql, and oracle.
 
-You can learn more about the available build settings and their possible values in the  [build configuration reference](../reference/buildtime-configuration).
+You can learn more about the available build settings and their possible values in the  [build configuration reference](../documentation/reference/buildtime-configuration).
 
 ### Using the `propel` Script To Build The SQL Code ###
 
@@ -290,7 +290,7 @@ Notice how the `id` attribute of the `<datasource>` tag matches the connection n
 
 Replace the `<adapter>` and the `<connection>` settings with the ones of your database.
 
-See the [runtime configuration reference](../reference/runtime-configuration) for a more detailed explanation of this file.
+See the [runtime configuration reference](../documentation/reference/runtime-configuration) for a more detailed explanation of this file.
 
 ### Building the Runtime Configuration ###
 

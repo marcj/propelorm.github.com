@@ -1,12 +1,22 @@
 .highlight {
-    background-color: #efefef;
-    padding: 7px 7px 7px 10px;
-    border: 1px solid #ddd;
-    -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-    box-shadow: 3px 3px rgba(0,0,0,0.1);
+    background-color: #E7EFF5;
     margin: 20px 0 20px 0;
     overflow: hidden;
+
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.highlight pre {
+    margin: 0;
+    padding: 2px 5px;
+}
+
+.highlight code {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 

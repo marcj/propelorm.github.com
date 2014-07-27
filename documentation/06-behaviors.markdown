@@ -130,20 +130,20 @@ Then rebuild your model, and there you go: two columns, `created_at` and `update
 
 Propel currently bundles several behaviors. Check the behavior documentation for details on usage:
 
-* [aggregate_column](../behaviors/aggregate-column)
-* [archivable](../behaviors/archivable) (Replace the deprecated `soft-delete` behavior)
-* [auto_add_pk](../behaviors/auto-add-pk)
-* [delegate](../behaviors/delegate)
-* [timestampable](../behaviors/timestampable)
-* [sluggable](../behaviors/sluggable)
-* [sortable](../behaviors/sortable)
-* [nested_set](../behaviors/nested-set)
-* [versionable](../behaviors/versionable)
-* [i18n](../behaviors/i18n)
-* [query_cache](../behaviors/query-cache)
+* [aggregate_column](../documentation/behaviors/aggregate-column)
+* [archivable](../documentation/behaviors/archivable) (Replace the deprecated `soft-delete` behavior)
+* [auto_add_pk](../documentation/behaviors/auto-add-pk)
+* [delegate](../documentation/behaviors/delegate)
+* [timestampable](../documentation/behaviors/timestampable)
+* [sluggable](../documentation/behaviors/sluggable)
+* [sortable](../documentation/behaviors/sortable)
+* [nested_set](../documentation/behaviors/nested-set)
+* [versionable](../documentation/behaviors/versionable)
+* [i18n](../documentation/behaviors/i18n)
+* [query_cache](../documentation/behaviors/query-cache)
 * And [concrete_inheritance](./08-inheritance), documented in the Inheritance Chapter even if it's a behavior
 
-You can also look at [user contributed behaviors](../cookbook/user-contributed-behaviors.html).
+You can also look at [user contributed behaviors](../documentation/cookbook/user-contributed-behaviors.html).
 
 Behaviors bundled with Propel require no further installation and work out of the box.
 
